@@ -36,9 +36,39 @@ self taught: "self."
 pie test: "pytest"
 state past: "pass"
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
+#dylan's snippets
+class funky: "def(class method)"
+class static funky: "def(class static method)"
+class: "class"
+else if: "elif"
+for: "for"
+funky: "def"
+if else: "if/else"
+if: "if"
+lambda: "lambda"
+try except: "try/except"
+while: "while"
+with: "with"
+
+raise {user.python_exception}: user.insert_between("raise {python_exception}(", ")")
+raise {user.python_exception}:
+    user.insert_between("raise {python_exception}(", ")")
+except {user.python_exception}: "except {python_exception}:"
+<<<<<<< HEAD
+=======
 [state] raise {user.python_exception}:
     user.insert_between("raise {python_exception}(", ")")
 [state] except {user.python_exception}: "except {python_exception}:"
+>>>>>>> d61854d8bdfa61dc0e60e9570a8c4fcec889f00e
+=======
+[state] raise {user.python_exception}:
+    user.insert_between("raise {python_exception}(", ")")
+[state] except {user.python_exception}: "except {python_exception}:"
+>>>>>>> master
 
 dock string: user.code_comment_documentation()
 dock {user.python_docstring_fields}:

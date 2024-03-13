@@ -10,3 +10,9 @@ not mode: sleep
     mode.disable("sleep")
     mode.disable("dictation")
     mode.enable("command")
+^mixed mode$:
+    mode.disable("sleep")
+    mode.enable("noise")
+    mode.enable("dictation")
+    mode.enable("command")
+
