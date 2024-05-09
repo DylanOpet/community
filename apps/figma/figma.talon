@@ -173,6 +173,9 @@ auto all:
 # Export
 export: key("cmd-shift-e")
 
+# Copy as PNG
+pee g: key("cmd-shift-c")
+
 # Resize to Fit
 resize: key("alt-shift-cmd-r")
 
